@@ -2,6 +2,8 @@
 
 `TTFullscreenPreviewActivity` is a `UIActivity` subclass that creates a fullscreen preview for a file using a QLPreviewcontroller.
 
+![TTFullscreenPreviewActivity screenshot](http://s14.directupload.net/images/130121/hezpsqie.png "TTFullscreenPreviewActivity screenshot")
+
 ## Requirements
 
 - As `UIActivity` is iOS 6 only, so is the subclass.
