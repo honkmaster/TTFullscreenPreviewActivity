@@ -80,4 +80,10 @@
     return [self.activityItems objectAtIndex:index];
 }
 
+#pragma mark - QLPreviewControllerDelegate
+- (void)previewControllerDidDismiss:(QLPreviewController *)controller
+{
+    [self activityDidFinish:YES];
+}
+
 @end

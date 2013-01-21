@@ -5,11 +5,12 @@
 ## Requirements
 
 - As `UIActivity` is iOS 6 only, so is the subclass.
+- QuickLook Framework
 - This project uses ARC. If you want to use it in a non ARC project, you must add the `-fobjc-arc` compiler flag to TTFullscreenPreviewActivity.m in Target Settings > Build Phases > Compile Sources.
 
 ## Installation
 
-Add the `TTFullscreenPreviewActivity` subfolder to your project. There are no required libraries other than `UIKit`.
+Add the `TTFullscreenPreviewActivity` subfolder to your project. There are no required libraries other than `UIKit` and `QuickLook`.
 
 ## Usage.
 
